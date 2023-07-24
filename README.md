@@ -18,8 +18,20 @@ trunk serve --open
 
 open `http://locahost:8080` on you browser and wait for it to crash, then open the console to see the error.
 
+## Results :
+
+- :x: : crash
+- :heavy_check_mark: : no crash
+
+| OS | Chrome/Chromium/Edge | Firefox | Webkit/Epiphany/Safari
+| --- | :---: | :---: | :---: |
+| Ubuntu / PopOs | :heavy_check_mark: | :heavy_check_mark: | :x:
+| Fedora 37 | :heavy_check_mark: | :heavy_check_mark: | :x:
+| Mac M1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: 
+
 
 ## Install Dependencies
 ```sh
 cargo install trunk
 ```
+
