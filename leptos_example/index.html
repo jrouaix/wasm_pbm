@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- trunk docs on this : https://trunkrs.dev/assets/ -->
+    <link data-trunk rel="rust" data-wasm-opt="z" data-weak-refs data-reference-types />
+    <script>
+      window.onload = function () {
+        setTimeout(() => {
+          var body = document.body;
+          var childCount = body.childElementCount;
+          if (childCount <= 2) {
+            var button = document.getElementById("reload");
+            button.style.display = "block"
+          }
+        }, 1000);
+      };
+    </script>
+	</head>
+	<body>
+    <div id="reload" style="display: none; margin:auto">
+      IF YOU SEE THIS, THE UI CRASHED !
+    </div>
+  </body>
+</html>
