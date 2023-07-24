@@ -7,12 +7,16 @@
 
 ### Trying to have a minimalist reproducible example of the issue.
 
+![if you see this](crash.png)
+
 ## Run examples :
 
 ```sh
 cd leptos_example
 trunk serve --open
 ```
+
+open `http://locahost:8080` on you browser and wait for it to crash, then open the console to see the error.
 
 
 ## Install Dependencies
