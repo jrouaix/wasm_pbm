@@ -1,6 +1,6 @@
 # wasm_pbm
 
-### Following the issue described by @t0m in here :
+### Following the issue described by @t0muxx in here :
 - https://github.com/tauri-apps/tauri/issues/7154
 - https://github.com/rustwasm/wasm-bindgen/issues/3470
 - https://github.com/leptos-rs/leptos/issues/1153
