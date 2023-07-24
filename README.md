@@ -5,6 +5,8 @@
 - https://github.com/rustwasm/wasm-bindgen/issues/3470
 - https://github.com/leptos-rs/leptos/issues/1153
 
+- https://bugs.webkit.org/show_bug.cgi?id=259441
+
 ### Trying to have a minimalist reproducible example of the issue.
 
 ![if you see this](crash.png)
@@ -30,8 +32,18 @@ open `http://locahost:8080` on you browser and wait for it to crash, then open t
 | Mac M1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: 
 
 
+## Multiple error messages the crash can produce :
+- [Error] Unhandled Promise Rejection: RuntimeError: Unreachable code should not be executed (evaluating 'wasm.__wbindgen_start()')
+- [Error] Unhandled Promise Rejection: RuntimeError: Out of bounds memory access (evaluating 'wasm.__wbindgen_start()')
+- [Error] Unhandled Promise Rejection: Error: ret out of bounds
+- **frozen browser** with CPU usage 100% (`webkit2gtk-4.1/WebKitWebProcess`)
+- [Error] Unhandled Promise Rejection: RuntimeError: Out of bounds memory access (evaluating 'wasm.__wbindgen_start()')
+- no error in the console, still the UI crashed
+
+
 ## Install Dependencies
 ```sh
 cargo install trunk
 ```
 
+webkit2gtk-4.1/WebKitWebProcess 
