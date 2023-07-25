@@ -41,6 +41,11 @@ open `http://locahost:8080` on you browser and wait for it to crash, then open t
 - **frozen browser** with CPU usage 100% (`webkit2gtk-4.1/WebKitWebProcess`)
 - [Error] Unhandled Promise Rejection: RuntimeError: Out of bounds memory access (evaluating 'wasm.__wbindgen_start()')
 - no error in the console, still the UI crashed
+- Error running javascript: Unsupported result type (Web process crashed)
+- [Error] Unhandled Promise Rejection: RuntimeError: call_indirect to a null table entry (evaluating 'wasm.closure238_externref_shim(arg0, arg1, arg2)')
+- [Error] Unhandled Promise Rejection: RuntimeError: Out of bounds memory access (evaluating 'wasm.run_app(retptr)')
+- [Error] RuntimeError: Out of bounds memory access (evaluating 'wasm._dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hdb214c0ad6a16231(arg0, arg1)')
+- [Error] Unhandled Promise Rejection: RuntimeError: Unreachable code should not be executed (evaluating 'wasm.run_app(retptr)')
 
 
 ## Install Dependencies
