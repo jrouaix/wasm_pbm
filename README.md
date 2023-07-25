@@ -25,11 +25,13 @@ open `http://locahost:8080` on you browser and wait for it to crash, then open t
 - :x: : crash
 - :heavy_check_mark: : no crash
 
-| OS | Chrome/Chromium/Edge | Firefox | Webkit/Epiphany/Safari
-| --- | :---: | :---: | :---: |
-| Ubuntu / PopOs | :heavy_check_mark: | :heavy_check_mark: | :x:
-| Fedora 37 | :heavy_check_mark: | :heavy_check_mark: | :x:
-| Mac M1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: 
+| OS | Chrome/Chromium/Edge | Firefox | Webkit/Epiphany/Safari | Epiphany/Webkit version |
+| --- | :---: | :---: | :---: | --- |
+| Ubuntu / PopOs | :heavy_check_mark: | :heavy_check_mark:  | :x:                   | 42.2 / ?      |
+| Ubuntu / PopOs | :heavy_check_mark: | :heavy_check_mark:  | :x:                   | 44.4 / 2.40.4 |
+| Fedora 37      | :heavy_check_mark: | :heavy_check_mark:  | :x:                   | 43.1 / 2.40.3 |
+| Mac M1         | :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark:    | ?             |
+| archlinux      | :heavy_check_mark: | :heavy_check_mark:  | :x:                   | ?             |
 
 
 ## Multiple error messages the crash can produce :
@@ -45,5 +47,3 @@ open `http://locahost:8080` on you browser and wait for it to crash, then open t
 ```sh
 cargo install trunk
 ```
-
-webkit2gtk-4.1/WebKitWebProcess 
