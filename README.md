@@ -5,7 +5,9 @@
 - https://github.com/rustwasm/wasm-bindgen/issues/3470
 - https://github.com/leptos-rs/leptos/issues/1153
 
+### Also reported here :
 - https://bugs.webkit.org/show_bug.cgi?id=259441
+- https://bytecodealliance.zulipchat.com/#narrow/stream/206238-general/topic/WASM.20.2B.20Webkit2GTK.20.2B.20Linux.20.20.3D.3E.20random.20crashes
 
 ### Trying to have a minimalist reproducible example of the issue.
 
